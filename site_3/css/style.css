@@ -1,0 +1,82 @@
+.navbar-brand
+{
+	padding-top: 25px;
+}
+.navbar-brand h1
+{
+	font-family:serif;
+	font-size: 1.5em;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-top: 0;
+	margin-bottom: 0;
+	text-shadow: 1px 1px 1px #222;
+	line-height: .75;
+}
+#nav-list
+{
+	margin-top: 10px;
+}
+#nav-list a
+{
+   color: #951c49;
+   text-align: center;
+}
+#nav-list a:hover
+{
+	background-color: #e7e7e7;
+}
+#nav-list span
+{
+	font-size: 1.8em;
+}
+
+
+/*Extra Small*/
+@media(max-width: 767px)
+{	
+	/*header*/
+	.navbar-brand
+{
+	padding-top: 10px;
+	height: 80px;
+}
+
+.navbar-brand h1  /*Resturant Name*/
+{
+	padding-top: 10px;
+	font-size: 5vw; /*1vw=1% of view port width*/
+}
+.navbar-brand a:hover , .navbar-brand a:focus
+{
+	text-decoration:none;
+}
+.navbar-brand p /*Kosher Cert*/
+{
+	font-size: .6em;
+	margin-top: 12px;
+}
+.navbar-brand p img /*Star k*/
+{
+	height: 20px;
+}
+#collapsable-nav
+{
+	font-size: 1.2em;
+}
+#collapsable-nav a span
+{
+	font-size: 1em;
+	margin-right: 5px;
+}
+.container .jumbotron
+	{
+		margin-top: 30px;
+		padding: 0;
+	}
+	 #menue-tile, #specials-tile {
+    width: 360px;
+    margin: 0 auto 15px;
+  }
+
+}
