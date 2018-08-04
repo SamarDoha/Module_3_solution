@@ -1,60 +1,116 @@
-
+body
+{
+	font-family: Lora;
+}
 /**Header*/
 
 .navbar-brand h1
 {
-	font-family:serif;
 	font-size: 1.5em;
 	font-weight: bold;
 	margin-top: 0;
 	margin-bottom: 0;
+	color:#000;
+}
+#header-nav
+{
+	background-color: grey;
+	border-radius: 0;
+	border: 0;
 }
 #nav-list li
 {
 	text-align: center;
+	background-color: #fff;
+	color: black;
+	width: 100vw;
+	border:0.5px solid; 
+	margin: 0 auto;
+}
+#nav-list span
+{
+	font-size: 1.5em;
+}
+
+#nav-list
+{
+	margin:0;
+	width: 100%;
+}
+.navbar-header button.navbar-toggle
+{
+	clear: both;
+}
+.navbar-header button.navbar-toggle, .navbar-header.icon-bar
+{
+	border: 1px solid #61122f;
 }
 #Page-head
 {
 	text-align: center;
 	font-weight: bold;
-	font-size: 100px;
+	font-size: 100 px;
 }
 .container .jumbotron 
 {
 	padding:0;
+	background-color: #fff;
 }
 .jumbotron span
 {
 	font-weight: bold;
 	font-size: 35px;
 }
+
+#chicken-tile ,#beef-tile , #sushi-tile
+{
+	margin-bottom: 15px;
+	position: relative;
+	/*border: 2px solid  #3f0c1f;*/
+	overflow: hidden;
+	background-color: grey;
+
+}
 #chicken-tile span ,#beef-tile span , #sushi-tile span
 {
 	text-align: center;
 	font-weight: bold;
-	font-size: 1.6em;
+	font-size: 20px;
+	color: #000000;
+    /*position: absolute;*/
 }
-#chicken-tile  ,#beef-tile , #sushi-tile 
+#chicken-tile p ,#beef-tile p, #sushi-tile p
 {
-	height:150px ;
-	width: 100%;
-	margin-bottom: 15px;
-	position: relative;
-	border: 2px solid  #3f0c1f;
-	overflow: hidden;
-	background-color: grey;
-	padding-left: 10px;
+	/*height:100% ;*/
+	/*width: 100%;*/
+	/*overflow: hidden;*/
+	padding-left: 15px;
+	padding-top: 20px;
+	text-indent: 0.2px;
+	font-size: 15px;
+	font-weight: bold;
+
 }
 .container div
 {
 	text-align: center;
 }
 
-.container div
-{
-	text-align: center;
-}
 .container p
 {
 	text-align: left;
+	color: #000000;
+}
+
+@media (max-width: 767px)
+{
+#chicken-tile ,#beef-tile , #sushi-tile
+{
+	margin-bottom: 15px;
+	position: relative;
+	margin-right: 15px;
+	margin-left: 15px;
+	overflow: hidden;
+	background-color: grey;
+}
 }
